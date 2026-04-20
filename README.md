@@ -45,5 +45,5 @@ initialise(&hi2c1);
 Angle(&hi2c1);
 HAL_UART_Transmit(&huart2, (uint8_t*)uart_msg, strlen(uart_msg), 100);
 HAL_Delay(100);
-
+```c
 Note for accessing other functionalities instead of Angle(&hi2c) call Acceleration(&hi2c), Quaternion(&hi2c), linearAcceleration(&hi2c), Gyro(&hi2c), Magnetometer(&hi2c), GravityVector(&hi2c), Temperature(&hi2c) according to your need
