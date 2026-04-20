@@ -1,55 +1,40 @@
-# Prerequisites
-*.d
+# --- STM32CubeIDE / Eclipse Specific ---
+.settings/
+.launches/
+.gdbinit
+.project
+.cproject
+Debug/
+Release/
+bin/
+obj/
 
-# Object files
-*.o
-*.ko
-*.obj
+# --- Build Artifacts ---
 *.elf
-
-# Linker output
-*.ilk
-*.map
-*.exp
-
-# Precompiled Headers
-*.gch
-*.pch
-
-# Libraries
-*.lib
-*.a
-*.la
-*.lo
-
-# Shared objects (inc. Windows DLLs)
-*.dll
-*.so
-*.so.*
-*.dylib
-
-# Executables
-*.exe
-*.out
-*.app
-*.i*86
-*.x86_64
 *.hex
+*.bin
+*.map
+*.list
+*.o
+*.d
+*.su
+*.axf
+*.elf.size
 
-# Debug files
-*.dSYM/
+# --- Logs and Backups ---
+*.log
+*.bak
+*.ioc.bak
+
+# --- System & OS clutter ---
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# --- Debugging & Temporary Files ---
+*.dwo
 *.su
 *.idb
 *.pdb
-
-# Kernel Module Compile Results
-*.mod*
-*.cmd
+*.tmp
 .tmp_versions/
-modules.order
-Module.symvers
-Mkfile.old
-dkms.conf
-
-# debug information files
-*.dwo
